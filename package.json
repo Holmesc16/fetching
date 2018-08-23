@@ -1,0 +1,26 @@
+{
+  "name": "fetching",
+  "version": "1.0.0",
+  "description": "testing fetch API with nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Holmesc16/fetching.git"
+  },
+  "keywords": [
+    "ECMAScript",
+    "fetch",
+    "API",
+    "nodejs",
+    "ES6"
+  ],
+  "author": "Cade Holmes <holmesc16@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Holmesc16/fetching/issues"
+  },
+  "homepage": "https://github.com/Holmesc16/fetching#readme"
+}
