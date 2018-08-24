@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Holmesc16/fetching/issues"
   },
-  "homepage": "https://github.com/Holmesc16/fetching#readme"
+  "homepage": "https://github.com/Holmesc16/fetching#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
 }

@@ -7,6 +7,30 @@
   <title>Fetch Sandbox!</title>
 </head>
 <body>
-  <p>hello</p>
+<p id="dump"></p>
 </body>
+<script>
+
+const prepender = 'https://cors-anywhere.herokuapp.com/'
+
+const fetcher = (url) => {
+fetch(`${prepender}${url}`, {mode: 'cors'})
+.then(function(response) {
+  if (!response.ok) {
+    throw Error(response.statusText);
+  }
+  return response.json();
+})
+.then(function(responseAsJson) {
+  const results = responseAsJson.results
+  const items = {...results}
+    //LOOK INTO OBJECTS LOOP => FOR{ IN } LOOP!
+})
+.catch(function(error) {
+  console.log('Looks like there was a problem: \n', error);
+})
+};
+
+fetcher('http://www.recipepuppy.com/api/')
+</script>
 </html>
